@@ -1,0 +1,24 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "Build API using graphql server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsgratien/graphql-server-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsgratien/graphql-server-example/issues"
+  },
+  "homepage": "https://github.com/itsgratien/graphql-server-example#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "graphql": "^16.3.0"
+  }
+}
