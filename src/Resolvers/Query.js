@@ -1,4 +1,4 @@
-const { ApolloError } = require("apollo-server");
+const { ApolloError } = require("apollo-server-express");
 const BookModel = require("../Model/Book");
 
 module.exports = {
