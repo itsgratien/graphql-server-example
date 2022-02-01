@@ -4,7 +4,8 @@
   "description": "Build API using graphql server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/itsgratien/graphql-server-example#readme",
   "dependencies": {
     "apollo-server": "^3.6.2",
-    "graphql": "^16.3.0"
+    "graphql": "^16.3.0",
+    "mongoose": "^6.1.9",
+    "nodemon": "^2.0.15"
   }
 }
